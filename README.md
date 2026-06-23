@@ -43,7 +43,7 @@ seismic-pattern-modeler/
 │   ├── omori_law_fits.png
 │   └── xgboost_residual_analysis.png
 ├── src/
-│   ├── Data Pipeline.ipynb
+│   ├── Data Pipeline.ipynb    # Data Loading and Processing
 │   ├── Gutenberg-Richter Law.ipynb
 │   ├── Interactive-Folium-Map.ipynb
 │   ├── Omori-Law.ipynb
