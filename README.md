@@ -35,19 +35,19 @@ seismic-pattern-modeler/
 │   ├── southern_california_cleaned.csv
 │   └── southern_california_raw.csv
 ├── Docs/
-│   ├── Seismic_Activity_Pattern_Model...
-│   └── Seismic_Activity_Pattern_Model...
+│   ├── Seismic_Activity_Pattern_Model_report.pdf
+│   └── Seismic_Activity_Pattern_Model_ppt.pdf
 ├── Visualisation/
 │   ├── Folium_Map.png
 │   ├── gutenberg_richter_fit.png
 │   ├── omori_law_fits.png
 │   └── xgboost_residual_analysis.png
 ├── src/
-│   ├── Data Pipeline.ipynb    # Data Loading and Processing
-│   ├── Gutenberg-Richter Law.ipynb
-│   ├── Interactive-Folium-Map.ipynb
-│   ├── Omori-Law.ipynb
-│   └── XGBoost-Regressor.ipynb
+│   ├── Data Pipeline.ipynb             # Data Loading and Processing
+│   ├── Gutenberg-Richter Law.ipynb     # Gutenberg-Richter Results
+│   ├── Interactive-Folium-Map.ipynb    # 
+│   ├── Omori-Law.ipynb                 # Omori-Law results
+│   └── XGBoost-Regressor.ipynb         # Aftershock modelling using XGBoost
 ├── .gitignore
 ├── requirements.txt
 └── README.md
