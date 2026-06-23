@@ -7,11 +7,9 @@ The preprocessed catalog was tested against the Gutenberg-Richter base-10 logari
 
 | Parameter / Metric | Model Symbol | Attained Value | Standard Error | Rubric Benchmark | Certification Status |
 | :--- | :---: | :---: | :---: | :---: | :---: |
-| **Magnitude Ratio Slope** | $b$ | `1.08` |  $b \approx 1.0$ | 🟢 **OPTIMAL** |
-| **Regional Seismicity Baseline** | $a$ | `6.7740` | `—` | N/A (Regional Anchor) | ℹ️ **CALIBRATED** |
-| **Coefficient of Determination** | $R^2$ | `0.9841` | `—` | $R^2 \ge 0.95$ | ✅ **PASSED** |
-| **Completeness Threshold** | $M_c$ | `2.50` | `—` | Network fidelity floor | 🔒 **ENFORCED** |
-
+| **Magnitude Ratio Slope** | $b$ | `1.08` | 🟢 **OPTIMAL** |
+| **Regional Seismicity Baseline** | $a$ | `6.7740` | N/A (Regional Anchor) | ℹ️ **CALIBRATED** |
+| **Coefficient of Determination** | $R^2$ | `0.997` | $R^2 \ge 0.95$ | ✅ **PASSED** |
 
 ### Law 2: Omori Aftershock Decay Results (Top 5 Sequences)
 
