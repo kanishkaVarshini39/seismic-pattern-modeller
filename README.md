@@ -1,0 +1,1 @@
+# seismic-pattern-modeller
