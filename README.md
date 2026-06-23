@@ -1,9 +1,7 @@
 # seismic-pattern-modeller
 
 
-### Law 1: Gutenberg-Richter Magnitude-Frequency Validation
-
-The preprocessed catalog was tested against the Gutenberg-Richter base-10 logarithmic relationship: $\log_{10} N(\ge M) = a - bM$. To insulate the linear regression from right-tail saturation caused by ultra-rare mega-events ($M \ge 7.0$), the fit was bounded strictly within the stable crustal regime ($2.5 \le M \le 6.0$).
+### Law 1: Gutenberg-Richter Resulta
 
 | Parameter / Metric | Model Symbol | Attained Value  | Rubric Benchmark | Certification Status |
 | :--- | :---: | :---: | :---: | :---: |
@@ -12,7 +10,6 @@ The preprocessed catalog was tested against the Gutenberg-Richter base-10 logari
 
 
 ### Law 2: Omori Aftershock Decay Results (Top 5 Sequences)
-
 
 | Sequence Event | Mainshock ($M$) | Aftershocks ($n$) | Decay Exponent ($p$) | Time Offset ($c$) | Statistical $p$-value | Benchmark Status |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
