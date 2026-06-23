@@ -1,5 +1,6 @@
 # seismic-pattern-modeller
 
+Seismic-paatern-modeller mines the historical data, prove the classic geophysical laws and predict aftershock frequencies using XGBoost Regressor, and map out the risk visually.
 
 ### Law 1: Gutenberg-Richter Results
 
