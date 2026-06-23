@@ -5,8 +5,8 @@
 
 The preprocessed catalog was tested against the Gutenberg-Richter base-10 logarithmic relationship: $\log_{10} N(\ge M) = a - bM$. To insulate the linear regression from right-tail saturation caused by ultra-rare mega-events ($M \ge 7.0$), the fit was bounded strictly within the stable crustal regime ($2.5 \le M \le 6.0$).
 
-| Parameter / Metric | Model Symbol | Attained Value |  Rubric Benchmark | Certification Status |
-| :--- | :---: | :---: | :---: | :---: | :---: |
+| Parameter / Metric | Model Symbol | Attained Value  | Rubric Benchmark | Certification Status |
+| :--- | :---: | :---: | :---: | :---: |
 | **Magnitude Ratio Slope** | $b$ | `1.08`  | 🟢 **OPTIMAL** |
 | **Coefficient of Determination** | $R^2$ | `0.997`  | $R^2 \ge 0.95$ | ✅ **PASSED** |
 
