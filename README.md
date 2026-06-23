@@ -19,7 +19,7 @@
 | **2004 Parkfield** | 6.0 | 104 | 1.51 | 0.001 | `5.30e-03` | ✅ **PASSED** |
 | **Lone Pine (18km SSE)** | 5.8 | 66 | 2.50 | 1.023 | `3.33e-02` | ✅ **PASSED** |
 
-### Stage 3: XGBoost Aftershock Rate Forecasting Results
+### XGBoost Aftershock Rate Forecasting Results
 
 | Model Architecture | Target Framing | Key Engineered Features | Test RMSE (quakes/day) | Variance Explained ($R^2$) | ETAS Baseline Benchmark |
 | :--- | :--- | :--- | :---: | :---: | :---: |
