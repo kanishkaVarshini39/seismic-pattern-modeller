@@ -26,3 +26,28 @@
 | **v1.0 Naive Baseline** | Raw Integer ($Y$) | Static metadata only | `95.615` | `0.232` | FAILED |
 | **v2.0 Log-Target** | $\ln(1 + Y)$ | Ghost Sequence Filter | `23.685` | `0.614` | FAILED |
 | **v3.0 Operational Hybrid** | $\ln(1 + Y)$ | **Day 1 Anchor + Omori Math** | **`10.004`** | **`0.86`** | 🏆 **OUTPERFORMED** |
+
+## Repository Structure
+```text
+seismic-pattern-modeler/
+│
+├── Data/
+│   ├── southern_california_cleaned.csv
+│   └── southern_california_raw.csv
+├── Docs/
+│   ├── Seismic_Activity_Pattern_Model...
+│   └── Seismic_Activity_Pattern_Model...
+├── Visualisation/
+│   ├── Folium_Map.png
+│   ├── gutenberg_richter_fit.png
+│   ├── omori_law_fits.png
+│   └── xgboost_residual_analysis.png
+├── src/
+│   ├── Data Pipeline.ipynb
+│   ├── Gutenberg-Richter Law.ipynb
+│   ├── Interactive-Folium-Map.ipynb
+│   ├── Omori-Law.ipynb
+│   └── XGBoost-Regressor.ipynb
+├── .gitignore
+├── requirements.txt
+└── README.md
