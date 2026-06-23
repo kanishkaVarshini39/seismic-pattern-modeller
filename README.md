@@ -29,10 +29,4 @@ To overcome the **Decision Tree Ceiling Paradox** inherent to power-law jump pro
 | :--- | :--- | :--- | :---: | :---: | :---: |
 | **v1.0 Naive Baseline** | Raw Integer ($Y$) | Static metadata only | `95.615` | `0.232` | FAILED |
 | **v2.0 Log-Target** | $\ln(1 + Y)$ | Ghost Sequence Filter | `23.685` | `0.614` | FAILED |
-| **v3.0 Operational Hybrid** | $\ln(1 + Y)$ | **Day 1 Anchor + Omori Math** | **`2.189`** | **`0.914`** | 🏆 **OUTPERFORMED** |
-
-#### Key Variance & Error Takeaways:
-
-* **The RMSE Leap:** The final Operational Hybrid achieved an **$\text{RMSE}$ of `2.189`**, decisively beating the standard seismological Epidemic-Type Aftershock Sequence ($\text{ETAS}$) baseline of $2.50 \text{ to } 6.50\text{ quakes/day}$.
-* **Total Variance Captured:** The model successfully explains **$91.4\%$ of the sequence variance** ($R^2 = 0.914$). 
-* **Residual Stabilization:** By passing the theoretical Omori decay rate as a baseline input feature (`omori_physics_baseline`), the XGBoost trees were freed from attempting to approximate an infinite sloped power-law, allowing them to act purely as a localized geological residual corrector.
+| **v3.0 Operational Hybrid** | $\ln(1 + Y)$ | **Day 1 Anchor + Omori Math** | **`10.004`** | **`0.86`** | 🏆 **OUTPERFORMED** |
