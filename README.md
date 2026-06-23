@@ -1,7 +1,7 @@
 # seismic-pattern-modeller
 
 
-### Law 1: Gutenberg-Richter Resulta
+### Law 1: Gutenberg-Richter Results
 
 | Parameter / Metric | Model Symbol | Attained Value  | Rubric Benchmark | Certification Status |
 | :--- | :---: | :---: | :---: | :---: |
